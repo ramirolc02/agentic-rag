@@ -1,8 +1,19 @@
 # Agentic RAG for Estimation of Distribution Algorithms
 
-An intelligent document processing and retrieval system that combines OCR processing with Retrieval-Augmented Generation (RAG) capabilities.
+[Master Thesis](https://oa.upm.es/90999/1/TFM_RAMIRO_LOPEZ_CENTO.pdf)
 
-## 🏗️ Repository Structure
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8cec3a14-0eb1-4fe5-b531-678ba9bdafac" />
+</div>
+
+An agentic Retrieval-Augmented Generation (RAG) system following the ReAct paradigm, where an LLM iteratively reasons, retrieves evidence, and invokes tools over OCR-processed scientific documents, enabling contextual, grounded question answering for algorithmic research domains.
+
+# Architecture 
+<div align="center">
+  <img width="639" height="289" alt="image" src="https://github.com/user-attachments/assets/8b096165-dfb0-4b53-88ba-77135bc4be14" />
+</div>
+
+# 🏗️ Repository Structure
 
 ```
 agentic-rag/
@@ -32,5 +43,25 @@ Centralized repository for source documents:
 - **Purpose**: Storage for all PDF files used in the knowledge database
 - **Content**: Research papers, documents, and reference materials
 - **Format**: PDF files that get processed by the OCR pipeline
-
 ---
+
+# Evals 
+
+### Embedding Models 
+
+<div align="center">
+   <img width="612" height="340" alt="image" src="https://github.com/user-attachments/assets/3780b986-c05a-48cd-9dd5-780243dc30a2" />
+</div>
+  
+### Chunking Strategies
+<div align="center">
+   <img width="612" height="379" alt="image" src="https://github.com/user-attachments/assets/c3b785c3-b1c8-4f59-bb6e-22c63cba2ec6" />
+</div>
+
+### LLM-as-a-judge
+
+<div align="center">
+   <img width="631" height="311" alt="image" src="https://github.com/user-attachments/assets/18a3f610-4d13-4e3c-9f56-dd9511217572" />
+</div>
+
+
